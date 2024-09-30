@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e clean */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Cor de fundo clara e suave */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px; /* Espaçamento entre a lista de produtos e itens selecionados */
+}
+
+.product-list {
+    flex: 3; /* Largura da lista de produtos */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Layout mais flexível para vários tamanhos de tela */
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #dee2e6; /* Borda leve e moderna */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve e moderna */
+}
+
+.category-title {
+    font-size: 28px; /* Tamanho de fonte moderno */
+    background-color: #007bff; /* Cor de fundo mais moderna e vibrante */
+    color: white; /* Cor do texto */
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve no título */
+}
+
+.selected-items {
+    flex: 1; /* Largura da lista de itens selecionados */
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    background-color: #f8f9fa; /* Fundo mais suave */
+    text-align: center;
+    border-radius: 8px; /* Bordas arredondadas nos itens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave para hover */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte no hover */
+}
+
+.controls {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.header {
+    text-align: center;
+    font-size: 40px; /* Tamanho do cabeçalho maior e moderno */
+    color: #007bff; /* Cor mais vibrante */
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+}
+
+.button {
+    padding: 25px;
+
+
+}
+
+

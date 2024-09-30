@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+    <link rel="stylesheet" href="style.css"> <!-- Referência ao arquivo CSS -->
+</head>
+<body>
+
+<h1 class="header">MESA 01</h1> <!-- Cabeçalho adicionado aqui -->
+
+<div class="container">
+    <div class="product-list" id="product-list">
+        <h2 class="category-title">Salgados</h2>
+        <div class="category" id="salgados"></div>
+        
+        <h2 class="category-title">Doces</h2>
+        <div class="category" id="doces"></div>
+        
+        <h2 class="category-title">Bebidas</h2>
+        <div class="category" id="bebidas"></div>
+    </div>
+    
+    <div class="selected-items">
+        <h2>Itens Selecionados</h2>
+        <ul id="selected-items"></ul>
+        <p>Total: R$ <span id="total-valor">0.00</span></p>
+        <button id="send-order-btn">Enviar Pedido</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
